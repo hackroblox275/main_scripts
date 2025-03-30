@@ -19,7 +19,7 @@ FEHATS.Parent = game.CoreGui
 
 main.Name = "main"
 main.Parent = FEHATS
-main.BackgroundColor3 = Color3.new(255,255,255)
+main.BackgroundColor3 = Color3.new(0,0,0)
 main.BorderSizePixel = 6
 main.BorderColor3 = Color3.new(0,0,0)
 main.Position = UDim2.new(0.2, 0, 0.1)
