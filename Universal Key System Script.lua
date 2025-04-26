@@ -1,4 +1,4 @@
--- Made BY Mr.Alegator
+-- Made BY flopelt
 
 local screenGui = Instance.new("ScreenGui")
 screenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
