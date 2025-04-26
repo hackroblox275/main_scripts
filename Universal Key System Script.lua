@@ -96,14 +96,14 @@ GetKeyButton.Parent = frame
 --------------------------------------------------------------------------
 SubmitButton.MouseButton1Click:Connect(function()
     local KeySystem = KeySystem.Text
-    if KeySystem == "Your Key" then   
+    if KeySystem == "Hland" then   
 screenGui:Destroy()
 
---Your Script
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hackroblox275/main_scripts/refs/heads/main/overdrive-h-hub_cracked.lua"))()
   
   end
 end)
 
 GetKeyButton.MouseButton1Click:Connect(function()
- setclipboard("Paste here your link to get the key") 
+ setclipboard("https://direct-link.net/1284037/overdrive-h-hub-key") 
 end) 
