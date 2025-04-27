@@ -121,6 +121,6 @@ function encode(h)
 end
 
 local key = encode(encode(tostring(os.time())))
-local payload = game:HttpGet("https://raw.githubusercontent.com/luizcrackz/overdrive-h/refs/heads/main/backup/main.lua")
+local payload = game:HttpGet("https://raw.githubusercontent.com/hackroblox275/mainscripts/refs/heads/main/ODHGUI.lua.txt")
 
 loadstring(`ODH_ACCESS_KEY = "{key}";{payload}`)()
