@@ -149,7 +149,7 @@ function UI:CreateWindow(c)
 
 		cnx[#cnx+1] = UIS.InputEnded:Connect(function(input)
 			if isDragging then
-				isDragging = false
+				isDragging = true
 				dragStartMousePosition = nil
 				startFramePosition = nil
 			end
