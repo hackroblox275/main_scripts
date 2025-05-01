@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Downloads</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            color: #007bff;
+            margin-bottom: 20px;
+        }
+        .download-item {
+            background-color: #fff;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .download-info {
+            flex-grow: 1;
+        }
+        .download-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #222;
+        }
+        .download-details {
+            font-size: 0.9em;
+            color: #666;
+        }
+        .download-button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .download-button:hover {
+            background-color: #0056b3;
+        }
+        .no-downloads {
+            text-align: center;
+            color: #777;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1>Executor</h1>
+
+    <div id="download-list">
+        <p class="no-downloads">No files currently available for download.</p>
+    </div>
+
+    <script>
+        // Sample download data (replace with your actual data)
+        const downloads = [
+            {
+                title: "Delta",
+                details: "Status working ",
+                fileUrl: "https://deltaexploits.gg/",
+                fileSize: "150 MB"
+            },
+            {
+                title: "Krnl",
+                details: "Status working",
+                fileUrl: "https://krnl.cat/",
+                fileSize: "134 MB"
+            },
+            {
+                title: "Codex",
+                details: "Status working",
+                fileUrl: "https://codex.lol/",
+                fileSize: "123 MB"
+            }
+        ];
+
+        const downloadListDiv = document.getElementById('download-list');
+
+        if (downloads.length > 0) {
+            // Clear the "No downloads" message
+            downloadListDiv.innerHTML = '';
+
+            downloads.forEach(download => {
+                const downloadItem = document.createElement('div');
+                downloadItem.classList.add('download-item');
+
+                const downloadInfo = document.createElement('div');
+                downloadInfo.classList.add('download-info');
+
+                const titleElement = document.createElement('div');
+                titleElement.classList.add('download-title');
+                titleElement.textContent = download.title;
+
+                const detailsElement = document.createElement('div');
+                detailsElement.classList.add('download-details');
+                detailsElement.textContent = download.details + ` (${download.fileSize})`;
+
+                downloadInfo.appendChild(titleElement);
+                downloadInfo.appendChild(detailsElement);
+
+                const downloadButton = document.createElement('a');
+                downloadButton.classList.add('download-button');
+                downloadButton.href = download.fileUrl;
+                downloadButton.textContent = 'Download';
+
+                downloadItem.appendChild(downloadInfo);
+                downloadItem.appendChild(downloadButton);
+
+                downloadListDiv.appendChild(downloadItem);
+            });
+        }
+    </script>
+</body>
+</html>
