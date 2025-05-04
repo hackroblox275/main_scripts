@@ -1,0 +1,1044 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local ShopBackGround = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local ImageLabel = Instance.new("ImageLabel")
+local TextButton = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+local Frame1 = Instance.new("Frame")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local ImageLabel_3 = Instance.new("ImageLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
+local TextLabel_8 = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local TextLabel_9 = Instance.new("TextLabel")
+local attach = Instance.new("TextButton")
+local TextButton_3 = Instance.new("TextButton")
+local textoz = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
+local Frame3 = Instance.new("Frame")
+local TextButton_4 = Instance.new("TextButton")
+local TextButton_5 = Instance.new("TextButton")
+local TextButton_6 = Instance.new("TextButton")
+local TextButton_7 = Instance.new("TextButton")
+local TextButton_8 = Instance.new("TextButton")
+local TextButton_9 = Instance.new("TextButton")
+local TextButton_10 = Instance.new("TextButton")
+local TextButton_11 = Instance.new("TextButton")
+local TextButton_12 = Instance.new("TextButton")
+local TextButton_13 = Instance.new("TextButton")
+local TextButton_14 = Instance.new("TextButton")
+local EXTRASCRIPTS = Instance.new("Frame")
+local TextButton_15 = Instance.new("TextButton")
+local TextButton_16 = Instance.new("TextButton")
+local TextButton_17 = Instance.new("TextButton")
+local TextButton_18 = Instance.new("TextButton")
+local TextButton_19 = Instance.new("TextButton")
+local TextButton_20 = Instance.new("TextButton")
+local TextLabel_10 = Instance.new("TextLabel")
+local TextButton_21 = Instance.new("TextButton")
+local TextLabel_11 = Instance.new("TextLabel")
+local Frame2 = Instance.new("Frame")
+local unfe = Instance.new("TextButton")
+local clear = Instance.new("TextButton")
+local TextBox = Instance.new("TextBox")
+local scriptview = Instance.new("TextLabel")
+local ounput = Instance.new("TextLabel")
+local TextButton_22 = Instance.new("TextButton")
+local ImageButton = Instance.new("ImageButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+ShopBackGround.Name = "ShopBackGround"
+ShopBackGround.Parent = ScreenGui
+ShopBackGround.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+ShopBackGround.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ShopBackGround.BorderSizePixel = 4
+ShopBackGround.Position = UDim2.new(-0.0104458416, 0, 0.189643785, 0)
+ShopBackGround.Size = UDim2.new(0, 868, 0, 354)
+
+TextLabel.Parent = ShopBackGround
+TextLabel.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 3
+TextLabel.Position = UDim2.new(0.111689657, 0, -0.00282485876, 0)
+TextLabel.Size = UDim2.new(0, 425, 0, 50)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "SF EXECUTOR"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+TextLabel_2.Parent = ShopBackGround
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 3
+TextLabel_2.Position = UDim2.new(0.601594508, 0, -0.00282485876, 0)
+TextLabel_2.Size = UDim2.new(0, 219, 0, 50)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "STATUS:"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 60.000
+TextLabel_2.TextWrapped = true
+TextLabel_2.TextXAlignment = Enum.TextXAlignment.Left
+
+ImageLabel.Parent = ShopBackGround
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 4
+ImageLabel.Size = UDim2.new(0, 95, 0, 89)
+ImageLabel.Image = "rbxassetid://97254757992727"
+
+TextButton.Parent = ShopBackGround
+TextButton.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 3
+TextButton.Position = UDim2.new(0.27764976, 0, 0.166666672, 0)
+TextButton.Size = UDim2.new(0, 112, 0, 22)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "EXECUTOR"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+TextButton_2.Parent = ShopBackGround
+TextButton_2.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BorderSizePixel = 3
+TextButton_2.Position = UDim2.new(0.420506924, 0, 0.166666672, 0)
+TextButton_2.Size = UDim2.new(0, 112, 0, 22)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "SCRIPTS"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14.000
+TextButton_2.TextWrapped = true
+
+Frame1.Name = "Frame1"
+Frame1.Parent = ShopBackGround
+Frame1.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
+Frame1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame1.BorderSizePixel = 4
+Frame1.Position = UDim2.new(0, 0, 0.285310745, 0)
+Frame1.Size = UDim2.new(0, 856, 0, 240)
+
+TextLabel_3.Parent = Frame1
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 3
+TextLabel_3.Position = UDim2.new(0.0123198377, 0, 0.0342514031, 0)
+TextLabel_3.Size = UDim2.new(0, 385, 0, 222)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "SERVERSIDE. FUN REMAKE CREATED BY ZaancOff, THANKS FOR THE SUPPORT OF THE TIKTOK VIDEO:)"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+TextLabel_4.Parent = Frame1
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BorderSizePixel = 3
+TextLabel_4.Position = UDim2.new(0.481017351, 0, 0.363418072, 0)
+TextLabel_4.Size = UDim2.new(0, 288, 0, 64)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "TIKTOK:zaancOff"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+ImageLabel_2.Parent = Frame1
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_2.BorderSizePixel = 3
+ImageLabel_2.Position = UDim2.new(0.543830812, 0, 0.675000012, 0)
+ImageLabel_2.Size = UDim2.new(0, 74, 0, 68)
+ImageLabel_2.Image = "rbxassetid://95388744139312"
+
+ImageLabel_3.Parent = Frame1
+ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_3.BorderSizePixel = 3
+ImageLabel_3.Position = UDim2.new(0.652475655, 0, 0.675000012, 0)
+ImageLabel_3.Size = UDim2.new(0, 74, 0, 68)
+ImageLabel_3.Image = "rbxassetid://97254757992727"
+
+TextLabel_5.Parent = Frame1
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+TextLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.BorderSizePixel = 3
+TextLabel_5.Position = UDim2.new(0.834989309, 0, 0.088418074, 0)
+TextLabel_5.Size = UDim2.new(0, 126, 0, 49)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "NO ATTACH:"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 21.000
+TextLabel_5.TextWrapped = true
+TextLabel_5.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_6.Parent = Frame1
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+TextLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.BorderSizePixel = 3
+TextLabel_6.Position = UDim2.new(0.834989309, 0, 0.325918078, 0)
+TextLabel_6.Size = UDim2.new(0, 126, 0, 49)
+TextLabel_6.Font = Enum.Font.SourceSans
+TextLabel_6.Text = "ATTACHED:"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextSize = 21.000
+TextLabel_6.TextWrapped = true
+TextLabel_6.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_7.Parent = Frame1
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_7.BorderSizePixel = 0
+TextLabel_7.Position = UDim2.new(0.934579432, 0, 0.117584735, 0)
+TextLabel_7.Size = UDim2.new(0, 40, 0, 35)
+TextLabel_7.Font = Enum.Font.SourceSans
+TextLabel_7.Text = ""
+TextLabel_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_7.TextSize = 14.000
+
+UICorner.CornerRadius = UDim.new(0, 30)
+UICorner.Parent = TextLabel_7
+
+TextLabel_8.Parent = Frame1
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(85, 255, 0)
+TextLabel_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_8.BorderSizePixel = 0
+TextLabel_8.Position = UDim2.new(0.934579432, 0, 0.355084747, 0)
+TextLabel_8.Size = UDim2.new(0, 40, 0, 35)
+TextLabel_8.Font = Enum.Font.SourceSans
+TextLabel_8.Text = ""
+TextLabel_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_8.TextSize = 14.000
+
+UICorner_2.CornerRadius = UDim.new(0, 30)
+UICorner_2.Parent = TextLabel_8
+
+TextLabel_9.Parent = Frame1
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+TextLabel_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_9.BorderSizePixel = 3
+TextLabel_9.Position = UDim2.new(0.481017351, 0, 0.0550847389, 0)
+TextLabel_9.Size = UDim2.new(0, 288, 0, 64)
+TextLabel_9.Font = Enum.Font.SourceSans
+TextLabel_9.Text = "THANKS FOR USING THIS REMAKE:)"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextScaled = true
+TextLabel_9.TextSize = 14.000
+TextLabel_9.TextWrapped = true
+
+attach.Name = "attach"
+attach.Parent = ShopBackGround
+attach.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+attach.BorderColor3 = Color3.fromRGB(0, 0, 0)
+attach.BorderSizePixel = 3
+attach.Position = UDim2.new(0.739838421, 0, 0.163165599, 0)
+attach.Size = UDim2.new(0, 65, 0, 24)
+attach.Font = Enum.Font.SourceSans
+attach.Text = "ATTACH"
+attach.TextColor3 = Color3.fromRGB(255, 255, 255)
+attach.TextScaled = true
+attach.TextSize = 14.000
+attach.TextWrapped = true
+
+TextButton_3.Parent = ShopBackGround
+TextButton_3.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+TextButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.BorderSizePixel = 3
+TextButton_3.Position = UDim2.new(0.134792626, 0, 0.166666672, 0)
+TextButton_3.Size = UDim2.new(0, 112, 0, 22)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "CREDITS"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextScaled = true
+TextButton_3.TextSize = 14.000
+TextButton_3.TextWrapped = true
+
+textoz.Name = "textoz"
+textoz.Parent = ShopBackGround
+textoz.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+textoz.BorderColor3 = Color3.fromRGB(0, 0, 0)
+textoz.BorderSizePixel = 0
+textoz.Position = UDim2.new(0.791577995, 0, 0.00712214736, 0)
+textoz.Size = UDim2.new(0, 44, 0, 43)
+textoz.Font = Enum.Font.SourceSans
+textoz.Text = ""
+textoz.TextColor3 = Color3.fromRGB(0, 0, 0)
+textoz.TextSize = 14.000
+textoz.TextWrapped = true
+textoz.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_3.CornerRadius = UDim.new(0, 70)
+UICorner_3.Parent = textoz
+
+Frame3.Name = "Frame3"
+Frame3.Parent = ShopBackGround
+Frame3.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
+Frame3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame3.BorderSizePixel = 4
+Frame3.Position = UDim2.new(0, 0, 0.285310745, 0)
+Frame3.Size = UDim2.new(0, 705, 0, 240)
+Frame3.Visible = false
+
+TextButton_4.Parent = Frame3
+TextButton_4.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+TextButton_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.BorderSizePixel = 3
+TextButton_4.Position = UDim2.new(0.0411347523, 0, 0.0416666679, 0)
+TextButton_4.Size = UDim2.new(0, 200, 0, 50)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Text = "FLY V1 G00BY"
+TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.TextScaled = true
+TextButton_4.TextSize = 14.000
+TextButton_4.TextWrapped = true
+
+TextButton_5.Parent = Frame3
+TextButton_5.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+TextButton_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.BorderSizePixel = 3
+TextButton_5.Position = UDim2.new(0.35744682, 0, 0.0416666679, 0)
+TextButton_5.Size = UDim2.new(0, 200, 0, 50)
+TextButton_5.Font = Enum.Font.SourceSans
+TextButton_5.Text = "WALKFLING"
+TextButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.TextScaled = true
+TextButton_5.TextSize = 14.000
+TextButton_5.TextWrapped = true
+
+TextButton_6.Parent = Frame3
+TextButton_6.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+TextButton_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.BorderSizePixel = 3
+TextButton_6.Position = UDim2.new(0.676595747, 0, 0.0416666679, 0)
+TextButton_6.Size = UDim2.new(0, 200, 0, 50)
+TextButton_6.Font = Enum.Font.SourceSans
+TextButton_6.Text = "FLING GUI"
+TextButton_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.TextScaled = true
+TextButton_6.TextSize = 14.000
+TextButton_6.TextWrapped = true
+
+TextButton_7.Parent = Frame3
+TextButton_7.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+TextButton_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.BorderSizePixel = 3
+TextButton_7.Position = UDim2.new(0.35744682, 0, 0.295833319, 0)
+TextButton_7.Size = UDim2.new(0, 200, 0, 50)
+TextButton_7.Font = Enum.Font.SourceSans
+TextButton_7.Text = "SUPER RING PARTS V6"
+TextButton_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.TextScaled = true
+TextButton_7.TextSize = 14.000
+TextButton_7.TextWrapped = true
+
+TextButton_8.Parent = Frame3
+TextButton_8.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+TextButton_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_8.BorderSizePixel = 3
+TextButton_8.Position = UDim2.new(0.676595747, 0, 0.295833319, 0)
+TextButton_8.Size = UDim2.new(0, 200, 0, 50)
+TextButton_8.Font = Enum.Font.SourceSans
+TextButton_8.Text = "G00BYGUI V6"
+TextButton_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_8.TextScaled = true
+TextButton_8.TextSize = 14.000
+TextButton_8.TextWrapped = true
+
+TextButton_9.Parent = Frame3
+TextButton_9.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+TextButton_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_9.BorderSizePixel = 3
+TextButton_9.Position = UDim2.new(0.0411347523, 0, 0.541666687, 0)
+TextButton_9.Size = UDim2.new(0, 200, 0, 50)
+TextButton_9.Font = Enum.Font.SourceSans
+TextButton_9.Text = "SHELDONI TEAM 007N7(SKID TEAM LOL)"
+TextButton_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_9.TextScaled = true
+TextButton_9.TextSize = 14.000
+TextButton_9.TextWrapped = true
+
+TextButton_10.Parent = Frame3
+TextButton_10.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+TextButton_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_10.BorderSizePixel = 3
+TextButton_10.Position = UDim2.new(0.35744682, 0, 0.541666687, 0)
+TextButton_10.Size = UDim2.new(0, 200, 0, 50)
+TextButton_10.Font = Enum.Font.SourceSans
+TextButton_10.Text = "SCRIPT HUB"
+TextButton_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_10.TextScaled = true
+TextButton_10.TextSize = 14.000
+TextButton_10.TextWrapped = true
+
+TextButton_11.Parent = Frame3
+TextButton_11.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+TextButton_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_11.BorderSizePixel = 3
+TextButton_11.Position = UDim2.new(0.676595747, 0, 0.541666687, 0)
+TextButton_11.Size = UDim2.new(0, 200, 0, 50)
+TextButton_11.Font = Enum.Font.SourceSans
+TextButton_11.Text = "AIMBOT UNIVERSAL"
+TextButton_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_11.TextScaled = true
+TextButton_11.TextSize = 14.000
+TextButton_11.TextWrapped = true
+
+TextButton_12.Parent = Frame3
+TextButton_12.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+TextButton_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_12.BorderSizePixel = 3
+TextButton_12.Position = UDim2.new(0.0411347523, 0, 0.791666687, 0)
+TextButton_12.Size = UDim2.new(0, 200, 0, 50)
+TextButton_12.Font = Enum.Font.SourceSans
+TextButton_12.Text = "GHOSTHUB"
+TextButton_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_12.TextScaled = true
+TextButton_12.TextSize = 14.000
+TextButton_12.TextWrapped = true
+
+TextButton_13.Parent = Frame3
+TextButton_13.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+TextButton_13.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_13.BorderSizePixel = 3
+TextButton_13.Position = UDim2.new(0.676595747, 0, 0.791666687, 0)
+TextButton_13.Size = UDim2.new(0, 200, 0, 50)
+TextButton_13.Font = Enum.Font.SourceSans
+TextButton_13.Text = "FLY CAR GUI"
+TextButton_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_13.TextScaled = true
+TextButton_13.TextSize = 14.000
+TextButton_13.TextWrapped = true
+
+TextButton_14.Parent = Frame3
+TextButton_14.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+TextButton_14.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_14.BorderSizePixel = 3
+TextButton_14.Position = UDim2.new(0.35744682, 0, 0.791666687, 0)
+TextButton_14.Size = UDim2.new(0, 200, 0, 50)
+TextButton_14.Font = Enum.Font.SourceSans
+TextButton_14.Text = "INTERNAL UI"
+TextButton_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_14.TextScaled = true
+TextButton_14.TextSize = 14.000
+TextButton_14.TextWrapped = true
+
+EXTRASCRIPTS.Name = "EXTRA SCRIPTS"
+EXTRASCRIPTS.Parent = Frame3
+EXTRASCRIPTS.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+EXTRASCRIPTS.BorderColor3 = Color3.fromRGB(0, 0, 0)
+EXTRASCRIPTS.BorderSizePixel = 3
+EXTRASCRIPTS.Position = UDim2.new(1.02127659, 0, 0, 0)
+EXTRASCRIPTS.Size = UDim2.new(0, 146, 0, 253)
+
+TextButton_15.Parent = EXTRASCRIPTS
+TextButton_15.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+TextButton_15.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_15.BorderSizePixel = 3
+TextButton_15.Position = UDim2.new(-0.0040901918, 0, 0.527882457, 0)
+TextButton_15.Size = UDim2.new(0, 148, 0, 28)
+TextButton_15.Font = Enum.Font.SourceSans
+TextButton_15.Text = "INFINITE YIELD"
+TextButton_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_15.TextScaled = true
+TextButton_15.TextSize = 14.000
+TextButton_15.TextWrapped = true
+
+TextButton_16.Parent = EXTRASCRIPTS
+TextButton_16.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+TextButton_16.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_16.BorderSizePixel = 3
+TextButton_16.Position = UDim2.new(-0.0040901918, 0, 0.638554394, 0)
+TextButton_16.Size = UDim2.new(0, 148, 0, 28)
+TextButton_16.Font = Enum.Font.SourceSans
+TextButton_16.Text = "DEX EXPLORER"
+TextButton_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_16.TextScaled = true
+TextButton_16.TextSize = 14.000
+TextButton_16.TextWrapped = true
+
+TextButton_17.Parent = EXTRASCRIPTS
+TextButton_17.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+TextButton_17.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_17.BorderSizePixel = 3
+TextButton_17.Position = UDim2.new(-0.0040901918, 0, 0.749226332, 0)
+TextButton_17.Size = UDim2.new(0, 148, 0, 28)
+TextButton_17.Font = Enum.Font.SourceSans
+TextButton_17.Text = "G00BY GUI V3"
+TextButton_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_17.TextScaled = true
+TextButton_17.TextSize = 14.000
+TextButton_17.TextWrapped = true
+
+TextButton_18.Parent = EXTRASCRIPTS
+TextButton_18.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+TextButton_18.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_18.BorderSizePixel = 3
+TextButton_18.Position = UDim2.new(-0.0040901918, 0, 0.859898269, 0)
+TextButton_18.Size = UDim2.new(0, 148, 0, 28)
+TextButton_18.Font = Enum.Font.SourceSans
+TextButton_18.Text = "G00BY GUI V5"
+TextButton_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_18.TextScaled = true
+TextButton_18.TextSize = 14.000
+TextButton_18.TextWrapped = true
+
+TextButton_19.Parent = EXTRASCRIPTS
+TextButton_19.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+TextButton_19.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_19.BorderSizePixel = 3
+TextButton_19.Position = UDim2.new(-0.0040901918, 0, 0.401400238, 0)
+TextButton_19.Size = UDim2.new(0, 148, 0, 28)
+TextButton_19.Font = Enum.Font.SourceSans
+TextButton_19.Text = "EXTRA CONSOLE"
+TextButton_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_19.TextScaled = true
+TextButton_19.TextSize = 14.000
+TextButton_19.TextWrapped = true
+
+TextButton_20.Parent = EXTRASCRIPTS
+TextButton_20.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+TextButton_20.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_20.BorderSizePixel = 3
+TextButton_20.Position = UDim2.new(-0.0040901918, 0, 0.278870583, 0)
+TextButton_20.Size = UDim2.new(0, 148, 0, 28)
+TextButton_20.Font = Enum.Font.SourceSans
+TextButton_20.Text = "ESP"
+TextButton_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_20.TextScaled = true
+TextButton_20.TextSize = 14.000
+TextButton_20.TextWrapped = true
+
+TextLabel_10.Parent = EXTRASCRIPTS
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+TextLabel_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_10.BorderSizePixel = 3
+TextLabel_10.Size = UDim2.new(0, 146, 0, 46)
+TextLabel_10.Font = Enum.Font.SourceSans
+TextLabel_10.Text = "EXTRA SCRIPTS"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextScaled = true
+TextLabel_10.TextSize = 14.000
+TextLabel_10.TextWrapped = true
+
+TextButton_21.Parent = Frame3
+TextButton_21.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+TextButton_21.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_21.BorderSizePixel = 3
+TextButton_21.Position = UDim2.new(0.0411347523, 0, 0.295833319, 0)
+TextButton_21.Size = UDim2.new(0, 200, 0, 50)
+TextButton_21.Font = Enum.Font.SourceSans
+TextButton_21.Text = "PRIZZ LIFE"
+TextButton_21.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_21.TextScaled = true
+TextButton_21.TextSize = 14.000
+TextButton_21.TextWrapped = true
+
+TextLabel_11.Parent = ShopBackGround
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+TextLabel_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_11.BorderSizePixel = 3
+TextLabel_11.Position = UDim2.new(0.855050385, 0, 0, 0)
+TextLabel_11.Size = UDim2.new(0, 125, 0, 50)
+TextLabel_11.Font = Enum.Font.Bangers
+TextLabel_11.Text = "VERSION:1.2"
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel_11.TextScaled = true
+TextLabel_11.TextSize = 60.000
+TextLabel_11.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextStrokeTransparency = 0.000
+TextLabel_11.TextWrapped = true
+
+Frame2.Name = "Frame2"
+Frame2.Parent = ShopBackGround
+Frame2.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Frame2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame2.BorderSizePixel = 4
+Frame2.Position = UDim2.new(0.0474686176, 0, 0.268361568, 0)
+Frame2.Size = UDim2.new(0, 666, 0, 259)
+Frame2.Visible = false
+
+unfe.Name = "unfe"
+unfe.Parent = Frame2
+unfe.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+unfe.BorderColor3 = Color3.fromRGB(0, 0, 0)
+unfe.BorderSizePixel = 3
+unfe.Position = UDim2.new(0.0195195191, 0, 0.818532825, 0)
+unfe.Size = UDim2.new(0, 154, 0, 47)
+unfe.Font = Enum.Font.SourceSans
+unfe.Text = "EXECUTE"
+unfe.TextColor3 = Color3.fromRGB(255, 255, 255)
+unfe.TextScaled = true
+unfe.TextSize = 14.000
+unfe.TextWrapped = true
+
+clear.Name = "clear"
+clear.Parent = Frame2
+clear.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+clear.BorderColor3 = Color3.fromRGB(0, 0, 0)
+clear.BorderSizePixel = 3
+clear.Position = UDim2.new(0.267267257, 0, 0.818532825, 0)
+clear.Size = UDim2.new(0, 154, 0, 47)
+clear.Font = Enum.Font.SourceSans
+clear.Text = "CLEAR"
+clear.TextColor3 = Color3.fromRGB(255, 255, 255)
+clear.TextScaled = true
+clear.TextSize = 14.000
+clear.TextWrapped = true
+
+TextBox.Parent = Frame2
+TextBox.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+TextBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.BorderSizePixel = 3
+TextBox.Position = UDim2.new(0.0210210215, 0, 0.0308880303, 0)
+TextBox.Size = UDim2.new(0, 638, 0, 190)
+TextBox.Font = Enum.Font.SourceSans
+TextBox.Text = "--press attach!"
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextSize = 17.000
+TextBox.TextXAlignment = Enum.TextXAlignment.Left
+TextBox.TextYAlignment = Enum.TextYAlignment.Top
+
+scriptview.Name = "script view"
+scriptview.Parent = Frame2
+scriptview.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
+scriptview.BorderColor3 = Color3.fromRGB(0, 0, 0)
+scriptview.BorderSizePixel = 3
+scriptview.Position = UDim2.new(1.019485, 0, -0.00190870371, 0)
+scriptview.Size = UDim2.new(0, 146, 0, 31)
+scriptview.Font = Enum.Font.SourceSans
+scriptview.Text = "STATUS SCRIPTS VIEW"
+scriptview.TextColor3 = Color3.fromRGB(255, 255, 255)
+scriptview.TextScaled = true
+scriptview.TextSize = 17.000
+scriptview.TextWrapped = true
+scriptview.TextXAlignment = Enum.TextXAlignment.Left
+
+ounput.Name = "ounput"
+ounput.Parent = Frame2
+ounput.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
+ounput.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ounput.BorderSizePixel = 3
+ounput.Position = UDim2.new(1.019485, 0, 0.116549931, 0)
+ounput.Size = UDim2.new(0, 146, 0, 228)
+ounput.Font = Enum.Font.SourceSans
+ounput.Text = ""
+ounput.TextColor3 = Color3.fromRGB(255, 255, 255)
+ounput.TextSize = 20.000
+ounput.TextXAlignment = Enum.TextXAlignment.Left
+ounput.TextYAlignment = Enum.TextYAlignment.Top
+
+TextButton_22.Parent = ShopBackGround
+TextButton_22.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+TextButton_22.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_22.BorderSizePixel = 3
+TextButton_22.Position = UDim2.new(0.563364029, 0, 0.166666672, 0)
+TextButton_22.Size = UDim2.new(0, 112, 0, 22)
+TextButton_22.Font = Enum.Font.SourceSans
+TextButton_22.Text = "EXTRA EXECUTORS"
+TextButton_22.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_22.TextScaled = true
+TextButton_22.TextSize = 14.000
+TextButton_22.TextWrapped = true
+
+ImageButton.Parent = ScreenGui
+ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton.BorderSizePixel = 0
+ImageButton.Position = UDim2.new(0.356198013, 0, 0.0131926117, 0)
+ImageButton.Size = UDim2.new(0, 96, 0, 84)
+ImageButton.Image = "rbxassetid://97254757992727"
+
+-- Scripts:
+
+local function IYBIN_fake_script() -- TextButton.Script 
+	local script = Instance.new('Script', TextButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Frame1.Visible = false
+		script.Parent.Parent.Frame3.Visible = false
+		script.Parent.Parent.Frame2.Visible = true
+	end)
+end
+coroutine.wrap(IYBIN_fake_script)()
+local function PNUKAYK_fake_script() -- TextButton_2.Script 
+	local script = Instance.new('Script', TextButton_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Frame1.Visible = false
+		script.Parent.Parent.Frame3.Visible = true
+		script.Parent.Parent.Frame2.Visible = false
+	end)
+	
+end
+coroutine.wrap(PNUKAYK_fake_script)()
+local function QRIFFB_fake_script() -- attach.LocalScript 
+	local script = Instance.new('LocalScript', attach)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		wait(2)
+		game:GetService("StarterGui"):SetCore("SendNotification", { 
+			Title = "attached!";
+			Text = "Do you love coffee?";
+			Icon = "http://www.roblox.com/asset/?id=97254757992727"})
+		Duration = 10;
+	end)
+	
+end
+coroutine.wrap(QRIFFB_fake_script)()
+local function NJJN_fake_script() -- attach.LocalScript 
+	local script = Instance.new('LocalScript', attach)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		wait(2)
+		script.Parent.Parent.textoz.BackgroundColor3 = Color3.new(0.333333, 1, 0)
+		local aw = Instance.new("Sound")
+		aw.Parent = game.Workspace
+		aw.SoundId = "rbxassetid://12222253"
+		aw.Looped = false
+		aw.Playing = true
+		wait(1.208)
+		aw:Destroy()
+	end)
+	
+	
+	
+end
+coroutine.wrap(NJJN_fake_script)()
+local function CINI_fake_script() -- TextButton_3.Script 
+	local script = Instance.new('Script', TextButton_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Frame1.Visible = true
+		script.Parent.Parent.Frame3.Visible = false
+		script.Parent.Parent.Frame2.Visible = false
+		end)
+end
+coroutine.wrap(CINI_fake_script)()
+local function FPELW_fake_script() -- ShopBackGround.LocalScript 
+	local script = Instance.new('LocalScript', ShopBackGround)
+
+	--[ Revamped by Sloshy ðŸ™ ]--
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	local dragToggle = nil
+	local dragSpeed = 0.25
+	local dragStart = nil
+	local startPos = nil
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+end
+coroutine.wrap(FPELW_fake_script)()
+local function CFDCOZ_fake_script() -- TextButton_4.Script 
+	local script = Instance.new('Script', TextButton_4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastefy.app/BVYQQTPR/raw", true))()
+	end)
+	
+end
+coroutine.wrap(CFDCOZ_fake_script)()
+local function JKLQB_fake_script() -- TextButton_5.Script 
+	local script = Instance.new('Script', TextButton_5)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastefy.app/Vf5POrA6/raw"))()
+	end)
+	
+	
+end
+coroutine.wrap(JKLQB_fake_script)()
+local function DHLOED_fake_script() -- TextButton_6.Script 
+	local script = Instance.new('Script', TextButton_6)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://paste.ee/r/NTtmf", true))()
+	end)
+	
+	
+end
+coroutine.wrap(DHLOED_fake_script)()
+local function JUIBOW_fake_script() -- TextButton_7.Script 
+	local script = Instance.new('Script', TextButton_7)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/chesslovers69/Super-ring-parts-v6/refs/heads/main/Bylukaslol"))()
+	end)
+end
+coroutine.wrap(JUIBOW_fake_script)()
+local function BBUAOE_fake_script() -- TextButton_8.Script 
+	local script = Instance.new('Script', TextButton_8)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastefy.app/IaqDBckK/raw", true))()
+	end)
+	
+	
+end
+coroutine.wrap(BBUAOE_fake_script)()
+local function MBYK_fake_script() -- TextButton_9.Script 
+	local script = Instance.new('Script', TextButton_9)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/tPzKthNy"))()
+	end)
+	
+	
+end
+coroutine.wrap(MBYK_fake_script)()
+local function JNDJVZ_fake_script() -- TextButton_10.Script 
+	local script = Instance.new('Script', TextButton_10)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/main/ScriptHub"))()
+	end)
+end
+coroutine.wrap(JNDJVZ_fake_script)()
+local function TOEVG_fake_script() -- TextButton_11.Script 
+	local script = Instance.new('Script', TextButton_11)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/agreed69-scripts/open-src-scripts/refs/heads/main/Universal%20Aimbot.lua",true))()
+	end)
+end
+coroutine.wrap(TOEVG_fake_script)()
+local function BEHXEP_fake_script() -- TextButton_12.Script 
+	local script = Instance.new('Script', TextButton_12)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-GhostHub-16534"))()
+	end)
+	
+	
+end
+coroutine.wrap(BEHXEP_fake_script)()
+local function ZTYYJ_fake_script() -- TextButton_13.Script 
+	local script = Instance.new('Script', TextButton_13)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/ScpGuest666/Random-Roblox-script/refs/heads/main/Roblox%20Fe%20Vehicle%20Fly%20GUI%20script'))()
+	end)
+	
+end
+coroutine.wrap(ZTYYJ_fake_script)()
+local function UEMVOQE_fake_script() -- TextButton_14.Script 
+	local script = Instance.new('Script', TextButton_14)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Internal-UI-18485"))()
+	end)
+	
+end
+coroutine.wrap(UEMVOQE_fake_script)()
+local function FIQBCAA_fake_script() -- TextButton_15.Script 
+	local script = Instance.new('Script', TextButton_15)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	end)
+	
+end
+coroutine.wrap(FIQBCAA_fake_script)()
+local function WHLUQ_fake_script() -- TextButton_16.Script 
+	local script = Instance.new('Script', TextButton_16)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/BigBoyTimme/New.Loadstring.Scripts/refs/heads/main/Dex.Explorer"))()
+	end)
+	
+	
+end
+coroutine.wrap(WHLUQ_fake_script)()
+local function PREAJ_fake_script() -- TextButton_17.Script 
+	local script = Instance.new('Script', TextButton_17)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/gYf39nrX", true))()
+	end)
+	
+end
+coroutine.wrap(PREAJ_fake_script)()
+local function QYIM_fake_script() -- TextButton_18.Script 
+	local script = Instance.new('Script', TextButton_18)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/ey2jaHKd", true ))()
+	end)
+	
+end
+coroutine.wrap(QYIM_fake_script)()
+local function GSWNGT_fake_script() -- TextButton_19.Script 
+	local script = Instance.new('Script', TextButton_19)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastefy.app/RTVCW1y3/raw", true))()
+	end)
+	
+	
+end
+coroutine.wrap(GSWNGT_fake_script)()
+local function LUPGUJE_fake_script() -- TextButton_20.Script 
+	local script = Instance.new('Script', TextButton_20)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/CesiumHub-Dev/ClxqEspGui/refs/heads/main/source"))()
+	end)
+	
+end
+coroutine.wrap(LUPGUJE_fake_script)()
+local function RSLLILL_fake_script() -- TextButton_21.Script 
+	local script = Instance.new('Script', TextButton_21)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/EnesXVC/Games-Scripts/main/Prison-Life-Prizz-Life"))()
+	end)
+	
+end
+coroutine.wrap(RSLLILL_fake_script)()
+local function BXWL_fake_script() -- unfe.Script 
+	local script = Instance.new('Script', unfe)
+
+	local function executeScript()
+		local script = TextBox.Text
+		if script ~= "" then
+			loadstring(script)()
+		else
+			print("No script entered")
+		end
+	end
+	
+	unfe.MouseButton1Click:Connect(executeScript)
+	
+end
+coroutine.wrap(BXWL_fake_script)()
+local function IMYPGA_fake_script() -- unfe.Script 
+	local script = Instance.new('Script', unfe)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.ounput.Text = "script executed!"
+		wait(1)
+		script.Parent.Parent.ounput.Text = ""
+	end)
+	
+end
+coroutine.wrap(IMYPGA_fake_script)()
+local function AUWSV_fake_script() -- clear.Script 
+	local script = Instance.new('Script', clear)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.TextBox.Text = ""
+		wait(0.5)
+		script.Parent.Parent.TextBox.Text = ""
+	end)
+	
+end
+coroutine.wrap(AUWSV_fake_script)()
+local function BNGEA_fake_script() -- clear.Script 
+	local script = Instance.new('Script', clear)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.ounput.Text = "cleared!"
+		wait(1)
+		script.Parent.Parent.ounput.Text = ""
+	end)
+	
+end
+coroutine.wrap(BNGEA_fake_script)()
+local function ZMHOEE_fake_script() -- TextButton_22.Script 
+	local script = Instance.new('Script', TextButton_22)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastefy.app/1nM99vVh/raw", true))()
+	end)
+	
+	
+end
+coroutine.wrap(ZMHOEE_fake_script)()
+local function ILMPY_fake_script() -- ImageButton.LocalScript 
+	local script = Instance.new('LocalScript', ImageButton)
+
+	--[ Revamped by Sloshy ðŸ™ ]--
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	local dragToggle = nil
+	local dragSpeed = 0.25
+	local dragStart = nil
+	local startPos = nil
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+end
+coroutine.wrap(ILMPY_fake_script)()
+local function JRYI_fake_script() -- ImageButton.LocalScript 
+	local script = Instance.new('LocalScript', ImageButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.ShopBackGround.Visible = not script.Parent.Parent.ShopBackGround.Visible
+	end)
+	
+end
+coroutine.wrap(JRYI_fake_script)()
