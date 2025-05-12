@@ -1,8 +1,8 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Xxtan31/Ata/main/cracked.txt", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hackroblox275/mainscripts/refs/heads/main/cracked.txt"))()
 
 --[[
 	Delta Mobile | Keyboard Script
-	CRACKED MADE BY ATA
+	CRACKED MADE BY ZaancOff
 	FUCKİNG SCRİPT SORRY
 ]]
 
