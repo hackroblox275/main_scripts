@@ -1,4 +1,3 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/hackroblox275/mainscripts/refs/heads/main/cracked.txt"))()
 
 --[[
 	Delta Mobile | Keyboard Script
